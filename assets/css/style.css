@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800|Oswald:400,500,600,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+body {
+    overflow-x: hidden;
+/*    font-family: 'Oswald', sans-serif;*/
+    font-family: 'Open Sans', sans-serif;
+}
+a:hover,
+a {
+    text-decoration: none;
+}
+ul,ol {
+    list-style-type: none;
+    margin: 0;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    
+}
+#head-top {
+    background: #0872b9;
+    padding: 10px 0;
+}
+.header_left p {
+    color: #e7e7e7;
+    font-size: 14px;
+}
+.header_right ul li a {
+    color: #e7e7e7;
+    font-size: 14px;
+     padding-left: 25px;
+    display: inline-block;
+}
+.header_right ul li a:hover {
+    color: #353535;
+}
+
+#navigation 
+{
+    padding: 20px;
+}
+
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 0;
+    padding-left: 15px;
+    font-size: 14px;
+    color: #353535;
+}
+.navbar-expand-lg .navbar-nav .active .nav-link,
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+    color: #0872b9;
+}
+
+
+/*Banner Part start*/
+
+#banner {
+    background-image: url(../img/bnr.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.bnr_overlay {
+   padding: 88px 0;
+ background: rgba(0,0,0,0.6);
+}
+.bnr_content h2 {
+    font-size: 30px;
+    color: #fff;
+    
+}
+.bnr_content h1 {
+    font-size: 40px;
+    color: #fff;
+    
+}
+.bnr_content a {
+    margin-left: 20px;
+    padding: 9px 16px;
+    border: 1px solid #fff;
+    display: inline-block;
+    margin-top: 30px;
+    background-color: #0872b9;
+    color: #fff;
+    text-transform: uppercase;
+    
+}
+
+
+/*Banner Part End*/
+#about_me {
+    padding: 60px 0;
+}
+.common_heading h2{
+    font-size: 24px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    
+    
+}
+.common_heading img{
+    margin-top: -24px;
+    margin-left: -45px;
+    
+    
+}
+
+
+.about_content {
+    margin-top: 44px;
+}
+.about_content p {
+    font-size: 13px;
+    color: #555555;
+}
+.about_content p:nth-child(1) {
+    margin-bottom: 35px;
+}
+/*About Section End*/
+
+#service  {
+    padding: 65px 0;
+}
+
+.text_content h4 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+/*testmonial start*/
+#testmonial {
+    padding: 50px 0;
+}
+.upl img {
+   margin-left: 240px;
+    margin-bottom: 20px;
+}
+
+
+.back {
+    background-image: url(../img/sah.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 25px 0;
+}
+
+
+#footer {
+  padding: 30px 0;
+    background: #353535;
+}
+.imagesk img {
+    margin-bottom: 20px;
+}
+.imagesk  {
+    color: #fff;
+    font-family: 'Oswald', sans-serif; 
+}
+.imagesk a img {
+    height: 10%;
+    line-height: 10%;
+    border-radius: 50%;
+    background: blue;
+    color: #fff;
+    width: 40px;
+    margin-top: 50px;
+    padding: 5px;
+}
+.footer_list {
+    color: #fff;
+}
+.footer_menu li a {
+    color: #fff;
+    padding: 3px;
+    display: inline-grid;
+    margin-top: 12px;
+}
+.footer_menu li a:hover {
+    background: #5bc5f4;
+        color: #fff;
+}
+
+.flicker h4 {
+    color: #fff;
+    padding: 33px;
+}
+
+.flicker img {
+    padding: 7px 16px;
+    margin-bottom: 19px;
+    width: 49%;
+    height: 50%;
+}
+/*Last Part Start*/
+
+#last_part {
+    background: #555555;
+    padding: 20px;
+}
+.content_last h2 {
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 13px;
+    text-align: center;
+    
+    
+}
+
+.content_last h5 {
+    color: #0872b9;
+    text-transform: uppercase;
+}
+
+/*Last Part End */
